@@ -44,10 +44,10 @@ void printSolution(int dist[V][V]) {
 
 int main() {
     int graph[V][V] = {
-        {0,   5,  INF, 10},
-        {INF, 0,   3, INF},
-        {INF, INF, 0,   1},
-        {INF, INF, INF, 0}
+         {0,   3,  INF, 5},
+        {2, 0,   INF, 4},
+        {INF, 1, 0,   INF},
+        {INF, INF, 2, 0}
     };
 
     floydWarshall(graph);
